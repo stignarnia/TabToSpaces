@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 class Program
 {
-    public const int SUBSTITUTE_KEYCODE = 32; // SPACE https://docs.microsoft.com/it-it/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2
+    public const int SUBSTITUTE_KEYCODE = 32; // SPACE https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2
     public const int HOWMANYSTRIKES = 1; // MULTIPLIED BY 6
     private const int WH_KEYBOARD_LL = 13;
     private static LowLevelKeyboardProc _proc = HookCallback;
