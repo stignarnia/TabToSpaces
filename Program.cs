@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 class Program
 {
-	public const int SUBSTITUTE_KEYCODE = 32; // SPAZIO https://keycode.info/
+    public const int SUBSTITUTE_KEYCODE = 32; // SPAZIO https://keycode.info/
     public const int HOWMANYSTRIKES = 1; // In multipli di 6, per cui 1 sono 6 spazi
     private const int WH_KEYBOARD_LL = 13;
     private static LowLevelKeyboardProc _proc = HookCallback;
